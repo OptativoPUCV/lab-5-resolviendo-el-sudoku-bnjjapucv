@@ -106,7 +106,7 @@ List* get_adj_nodes(Node* n){
             nuevo->sudo[i][j] = num;
             if(is_valid(nuevo))
             {
-              pushBack(lista, nuevo);
+              pushBack(list, nuevo);
             }
           }
         }
