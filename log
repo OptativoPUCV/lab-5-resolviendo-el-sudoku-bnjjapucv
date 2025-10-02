@@ -170,3 +170,13 @@ Thu, Oct  2, 2025 11:46:56 AM:
  tests:  5|3
 total_score: 35/70
 b084a5a
+Thu, Oct  2, 2025 11:49:04 AM: 
+ sudoku.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_final':
+sudoku.c:125:11: error: 'Node {aka struct <anonymous>}' has no member named 'sodo'; did you mean 'sudo'?
+       if(n->sodo[i][j] != 0) return 1;
+           ^~
+dd0e760
