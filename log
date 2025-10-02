@@ -180,3 +180,9 @@ sudoku.c:125:11: error: 'Node {aka struct <anonymous>}' has no member named 'sod
        if(n->sodo[i][j] != 0) return 1;
            ^~
 dd0e760
+Thu, Oct  2, 2025 11:49:21 AM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|3
+total_score: 35/70
+21f5f44
