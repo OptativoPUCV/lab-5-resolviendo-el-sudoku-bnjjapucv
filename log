@@ -133,3 +133,17 @@ list.h:23:6: note: expected 'List * {aka struct List *}' but argument is of type
       ^~~~~~~~
 cc1.exe: all warnings being treated as errors
 956de9b
+Thu, Oct  2, 2025 11:21:13 AM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'get_adj_nodes':
+sudoku.c:105:32: error: 'nodo' undeclared (first use in this function)
+             Node* nuevo = copy(nodo);
+                                ^~~~
+sudoku.c:105:32: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:109:24: error: 'lista' undeclared (first use in this function)
+               pushBack(lista, nuevo);
+                        ^~~~~
+941d8d7
