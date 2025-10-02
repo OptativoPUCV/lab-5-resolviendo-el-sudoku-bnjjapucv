@@ -64,3 +64,21 @@ sudoku.c:69:11: error: unused variable 'valor' [-Werror=unused-variable]
            ^~~~~
 cc1.exe: all warnings being treated as errors
 fd61290
+Thu, Oct  2, 2025 10:50:32 AM: 
+ sudoku.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:48:3: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'for'
+   for(int i = 0 ; i < 9 ; i++)
+   ^~~
+sudoku.c:52:7: error: 'aparece' undeclared (first use in this function)
+       aparece[k] = 0;
+       ^~~~~~~
+sudoku.c:52:7: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:77:11: error: unused variable 'valor' [-Werror=unused-variable]
+       int valor = n->sudo[i][j];
+           ^~~~~
+cc1.exe: all warnings being treated as errors
+3101b78

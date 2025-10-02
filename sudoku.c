@@ -55,6 +55,14 @@ int is_valid(Node* n){
     for (int j = 0 ; j < 9 ; j++)
     {
       int valor = n->sudo[i][j];
+      if(valor != 0)
+      {
+        if(aparece[valor] == 1)
+        {
+          return 0;
+        }
+        aparece[valor] = 1;
+      }
     }
   }
 
