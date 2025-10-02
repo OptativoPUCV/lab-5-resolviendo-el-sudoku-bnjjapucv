@@ -54,7 +54,7 @@ int is_valid(Node* n){
 
     for (int j = 0 ; j < 9 ; j++)
     {
-      int valor = nodo->sudo[i][j];
+      int valor = n->sudo[i][j];
     }
   }
 
