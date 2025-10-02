@@ -92,6 +92,15 @@ int is_valid(Node* n){
 
 List* get_adj_nodes(Node* n){
     List* list=createList();
+    int celdaVacia = 0;
+    
+    for(int i = 0 ; i < 9 && celdaVacia == 0 ; i++)
+    {
+      for(int j = 0 ; j< 9 && celdaVacia == 0 ; j++)
+      {
+        
+      }
+    }
     return list;
 }
 
