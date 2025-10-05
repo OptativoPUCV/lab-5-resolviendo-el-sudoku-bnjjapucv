@@ -134,7 +134,7 @@ Node* DFS(Node* initial, int* cont){
   while(top(pila) != NULL)
   {
     Node* actual = top(pila);
-    pop(actual);
+    pop(pila);
     if(is_final(actual))
     {
       return actual;
