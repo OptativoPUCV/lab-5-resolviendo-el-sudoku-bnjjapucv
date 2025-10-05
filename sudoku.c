@@ -142,8 +142,11 @@ Node* DFS(Node* initial, int* cont){
 
     List* adyacentes = get_adj_nodes(actual);
     Node* nodosAdyacentes = first(adyacentes);
+    while(nodosAdyacentes != NULL)
+    {
     push(pila, nodosAdyacentes);
     nodosAdyacentes = next(adyacentes);
+    }
 
     free(adyacentes);
     free(actual);
