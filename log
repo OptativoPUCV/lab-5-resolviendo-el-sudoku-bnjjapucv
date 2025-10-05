@@ -263,3 +263,16 @@ sudoku.c:100:11: error: unused variable 'valor' [-Werror=unused-variable]
            ^~~~~
 cc1.exe: all warnings being treated as errors
 e8e5e55
+Sun, Oct  5, 2025  5:40:25 PM: 
+ sudoku.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:93:7: error: called object 'aparece' is not a function or function pointer
+       aparece(j) = 0;
+       ^~~~~~~
+sudoku.c:47:7: note: declared here
+   int aparece[10];
+       ^~~~~~~
+e7dab21

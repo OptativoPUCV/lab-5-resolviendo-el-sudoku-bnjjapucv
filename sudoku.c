@@ -98,6 +98,14 @@ int is_valid(Node* n){
       int a = 3 * (i / 3) + (k /3);
       int b = 3 * (i / 3) + (k /3);
       int valor = n->sudo[a][b];
+      if(valor != 0)
+      {
+        if(aparece[valor] == 1)
+        {
+          return 0;
+        }
+        aparece[valor] = 1;
+      }
     }
   }
 
