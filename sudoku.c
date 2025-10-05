@@ -147,7 +147,7 @@ Node* DFS(Node* initial, int* cont){
     push(pila, nodosAdyacentes);
     nodosAdyacentes = next(adyacentes);
     }
-
+    clean(adyacentes);
     free(adyacentes);
     free(actual);
   }
