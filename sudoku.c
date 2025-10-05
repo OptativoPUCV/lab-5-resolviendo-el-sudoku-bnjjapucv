@@ -86,6 +86,21 @@ int is_valid(Node* n){
     }
   }
 
+  for(int i = 0 ; i < 9 ; i++)
+  {
+    for(int j = 0 ; j < 10 ; j++)
+    {
+      aparece(j) = 0;
+    }
+
+    for(int k = 0 ; k < 9 ; k++)
+    {
+      int a = 3 * (i / 3) + (k /3);
+      int b = 3 * (i / 3) + (k /3);
+      int valor = n->sudo[a][b];
+    }
+  }
+
     return 1;
 }
 

@@ -246,3 +246,20 @@ Sun, Oct  5, 2025  5:30:26 PM:
  tests:  7|2
 total_score: 50/70
 2d8b42c
+Sun, Oct  5, 2025  5:36:04 PM: 
+ sudoku.c | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:93:7: error: called object 'aparece' is not a function or function pointer
+       aparece(j) = 0;
+       ^~~~~~~
+sudoku.c:47:7: note: declared here
+   int aparece[10];
+       ^~~~~~~
+sudoku.c:100:11: error: unused variable 'valor' [-Werror=unused-variable]
+       int valor = n->sudo[a][b];
+           ^~~~~
+cc1.exe: all warnings being treated as errors
+e8e5e55
