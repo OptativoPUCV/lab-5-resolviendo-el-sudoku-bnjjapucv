@@ -139,7 +139,16 @@ Node* DFS(Node* initial, int* cont){
     {
       return actual;
     }
+
+    List* adyacentes = get_adj_nodes(actual);
+    Node* nodosAdyacentes = first(adyacentes);
+    push(pila, nodosAdyacentes);
+    nodosAdyacentes = next(adyacentes);
+
+    free(adyacentes);
+    free(actual);
   }
+
   return NULL;
 }
 
