@@ -90,7 +90,7 @@ int is_valid(Node* n){
   {
     for(int j = 0 ; j < 10 ; j++)
     {
-      aparece(j) = 0;
+      aparece[j] = 0;
     }
 
     for(int k = 0 ; k < 9 ; k++)

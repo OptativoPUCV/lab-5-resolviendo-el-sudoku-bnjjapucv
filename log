@@ -276,3 +276,9 @@ sudoku.c:47:7: note: declared here
    int aparece[10];
        ^~~~~~~
 e7dab21
+Sun, Oct  5, 2025  5:41:22 PM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+e2cd9ea
