@@ -96,7 +96,7 @@ int is_valid(Node* n){
     for(int k = 0 ; k < 9 ; k++)
     {
       int a = 3 * (i / 3) + (k /3);
-      int b = 3 * (i / 3) + (k /3);
+      int b = 3 * (i % 3) + (k %3);
       int valor = n->sudo[a][b];
       if(valor != 0)
       {
